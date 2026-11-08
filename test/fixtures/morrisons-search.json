@@ -1,0 +1,58 @@
+{
+  "productGroups": [
+    {
+      "type": "personalized",
+      "decoratedProducts": [
+        {
+          "productId": "00000000-0000-4000-8000-000000000001",
+          "retailerProductId": "100000001",
+          "name": "Morrisons  Semi Skimmed Milk 4 Pint",
+          "brand": "Morrisons",
+          "packSizeDescription": "2.272L",
+          "available": true,
+          "price": { "amount": "1.75", "currency": "GBP" },
+          "unitPrice": { "price": { "amount": "77.0", "currency": "GBX" }, "unit": "fop.price.per.litre", "unitName": "PER_LITRE" },
+          "image": { "src": "https://groceries.morrisons.com/images-v3/test/100000001/300x300.jpg" },
+          "guaranteedProductLife": { "quantity": 1, "unit": "WEEK" },
+          "ratingSummary": { "overallRating": "3.2", "count": 24 },
+          "promotions": [{ "description": "Now £1.50, Was £1.75" }]
+        }
+      ]
+    },
+    {
+      "type": "cluster",
+      "decoratedProducts": [
+        {
+          "productId": "00000000-0000-4000-8000-000000000001",
+          "retailerProductId": "100000001",
+          "name": "Morrisons  Semi Skimmed Milk 4 Pint",
+          "available": true,
+          "price": { "amount": "1.75", "currency": "GBP" }
+        },
+        {
+          "productId": "00000000-0000-4000-8000-000000000002",
+          "retailerProductId": "100000002",
+          "name": "Test Greek Style Yoghurt 450g",
+          "packSizeDescription": "450g",
+          "available": false,
+          "price": { "amount": "2.40", "currency": "GBP" },
+          "unitPrice": { "price": { "amount": "5.33", "currency": "GBP" }, "unit": "fop.price.per.kg", "unitName": "PER_1KG" },
+          "ratingSummary": { "overallRating": "4.5", "count": 0 }
+        },
+        {
+          "productId": "00000000-0000-4000-8000-000000000003",
+          "retailerProductId": "100000003",
+          "name": "Test Bananas 5 Pack",
+          "packSizeDescription": "5 per pack",
+          "price": {},
+          "unitPrice": { "price": { "amount": "15.6", "currency": "XYZ" }, "unit": "fop.price.per.each" }
+        },
+        {
+          "productId": "00000000-0000-4000-8000-000000000004",
+          "name": "Row without a retailer product id"
+        }
+      ]
+    }
+  ],
+  "metadata": { "nextPageToken": "token-page-2" }
+}

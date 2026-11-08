@@ -55,6 +55,21 @@ export const PROVIDERS: ProviderManifest[] = [
     load: async () => (await import('./ocado')).OcadoProvider,
   },
   {
+    id: 'morrisons',
+    label: 'Morrisons',
+    country: 'GB',
+    // Search and product lookup verified live on 2026-11-08 with no cookies or
+    // login. Basket would need an imported browser session (login is
+    // bot-protected) and is deliberately not claimed.
+    capabilities: ['search'],
+    auth: 'none',
+    tier: 'community',
+    maintainer: 'sashaKorovkina',
+    credit:
+      "Ocado Smart Platform web-product-page JSON service, the same backend ocado.ts documents",
+    load: async () => (await import('./morrisons')).MorrisonsProvider,
+  },
+  {
     id: 'tesco',
     label: 'Tesco',
     country: 'GB',
